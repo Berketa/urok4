@@ -1,0 +1,43 @@
+li {
+    color: violet;
+    font-family: "Times New Roman";
+    font-size: x-large;
+    padding: 4px 6px 8px 10px;
+}
+h1 {
+    color: red;
+    font-family: "Comic Sans MS";
+}
+table {
+    border: 5px solid #0d37f3;
+    font-family: "Georgia";
+    font-size: small;
+    border-radius: 15px;
+    -o-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+.div {
+    border: 3px solid #66ffff;
+    border-radius: 15px;
+    -o-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    font-size: large;
+}
+th {
+    background-color: black;
+    color: white;
+}
+td {
+    color: white;
+    font-size: x-large;
+}
+img {
+    border: 2px solid blue;
+    margin: 4px 6px 8px 10px;
+}
+li:hover {
+    color: red;
+    font-family: fantasy;
+}
