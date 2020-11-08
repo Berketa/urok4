@@ -1,43 +1,46 @@
-li {
-    color: violet;
-    font-family: "Times New Roman";
-    font-size: x-large;
-    padding: 4px 6px 8px 10px;
+.div1 {
+    background-color: red;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    width:400px;
+    font-family: "Roboto";
+    color: white;
+   font-weight: bolder;   
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
 }
-h1 {
-    color: red;
-    font-family: "Comic Sans MS";
+.div2 {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 200px;
+    width:400px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
-table {
-    border: 5px solid #0d37f3;
-    font-family: "Georgia";
-    font-size: small;
-    border-radius: 15px;
-    -o-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
+.p2 {
+    font-size: 75px;
+    margin: 0px;
 }
-.div {
-    border: 3px solid #66ffff;
-    border-radius: 15px;
-    -o-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    font-size: large;
+.p1 {
+    font-size: 50px;  
+    margin: 0px;
 }
 th {
-    background-color: black;
-    color: white;
+    text-align: center;
+    color: red
 }
-td {
-    color: white;
-    font-size: x-large;
+.td1 {
+    color: rgb(165, 165, 165)
 }
-img {
-    border: 2px solid blue;
-    margin: 4px 6px 8px 10px;
-}
-li:hover {
-    color: red;
-    font-family: fantasy;
-}
+
+
